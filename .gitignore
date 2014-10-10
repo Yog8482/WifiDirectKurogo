@@ -1,5 +1,4 @@
 # built application files
-*.apk
 *.ap_
 
 # files for the dex VM
@@ -11,9 +10,12 @@
 # generated files
 bin/
 gen/
+WifiDirectKurogo/doc/*
 
 # Local configuration file (sdk path, etc)
 local.properties
+.hgignore
+*/.hg/*
 
 # Eclipse project files
 .classpath

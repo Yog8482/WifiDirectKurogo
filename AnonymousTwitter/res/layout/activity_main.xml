@@ -1,0 +1,63 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewFlipper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="fill_parent" -->
+<!--         android:gravity="center" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/zero" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:scaleType="centerInside" -->
+<!--             android:src="@drawable/ic_launcher" /> -->
+<!--     </LinearLayout> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="fill_parent" -->
+<!--         android:gravity="center" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/one" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:scaleType="centerInside" -->
+<!--             android:src="@drawable/ic_launcher" /> -->
+<!--     </LinearLayout> -->
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="fill_parent" -->
+<!--         android:layout_height="fill_parent" -->
+<!--         android:gravity="center" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/two" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:scaleType="centerInside" -->
+<!--             android:src="@drawable/ic_launcher" /> -->
+<!--     </LinearLayout> -->
+
+<!--     <fragment -->
+<!--         android:name="jp.ac.tuat.cs.anonymoustwitter.TweetListFragment" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:tag="list" /> -->
+
+<!--     <fragment -->
+<!--         android:name="jp.ac.tuat.cs.anonymoustwitter.PostFragment" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:tag="post" /> -->
+
+</ViewFlipper>
